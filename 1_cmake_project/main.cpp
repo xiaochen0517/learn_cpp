@@ -1,14 +1,13 @@
 #include "iostream"
 #include "thread"
 
-void hello()
-{
+void hello() {
     std::cout << "Hello World!" << std::endl;
 }
 
-int main()
-{
+int main() {
     std::thread t1(hello);
     t1.join();
+    std::cout << "" << std::endl;
     return 0;
 }
