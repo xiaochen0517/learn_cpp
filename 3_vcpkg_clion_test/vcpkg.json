@@ -1,0 +1,15 @@
+{
+  "name" : "3-vcpkg-clion-test",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "834977918592e4f5d5ec5fe48ba338c608faf9f9",
+  "dependencies" : [ {
+    "name" : "vcpkg-cmake-config",
+    "version>=" : "2024-05-23"
+  }, {
+    "name" : "vcpkg-cmake",
+    "version>=" : "2024-04-23"
+  }, {
+    "name" : "fmt",
+    "version>=" : "11.0.2#1"
+  } ]
+}
