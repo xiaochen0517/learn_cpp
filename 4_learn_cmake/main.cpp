@@ -10,7 +10,7 @@ int main()
 #ifdef HAVE_FEATURE_X
     fmt::println("Feature Support: {}", HAVE_FEATURE_X);
 #else
-        fmt::println("Feature Not Supported");
+    fmt::println("Feature Not Supported");
 #endif
     return 0;
 }
