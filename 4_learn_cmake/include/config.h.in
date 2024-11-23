@@ -1,0 +1,10 @@
+/* config.h.in. Generated from CMakeLists.txt by CMake. */
+
+/* Define to the version of this package. */
+#define PROJECT_VERSION "@PROJECT_VERSION@"
+
+/* Define to the full name of this package. */
+#define PROJECT_NAME "@PROJECT_NAME@"
+
+/* Define if the platform supports certain features. */
+#cmakedefine HAVE_FEATURE_X @HAVE_FEATURE_X@
